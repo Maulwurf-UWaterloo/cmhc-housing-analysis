@@ -50,17 +50,24 @@ python -c "import sqlite3; conn=sqlite3.connect('housing.db'); \
 
 ## Findings
 
-<!-- TODO: Fill in concrete numbers and 3-5 charts after running the analysis -->
+1. **Ontario grew, Alberta retreated.** Ontario was the only major province
+   to significantly increase housing starts April 2025→2026 (+25%,
+   5,334→6,680 units), while Alberta posted the steepest decline
+   (-40%, 5,294→3,192). Supply momentum is highly polarized at the
+   provincial level.
 
-1. **[Finding 1]** — e.g., "Ontario accounts for X% of all housing starts
-   but has the Y-highest avg vacancy at Z%."
+2. **Ontario's growth is concentrated, not uniform.** Within Ontario,
+   London surged +1,262% (71→967 units) while Kingston (-88%), Oshawa
+   (-87%), and Hamilton (-86%) collapsed — suggesting supply is
+   consolidating into select markets rather than spreading evenly.
 
-2. **[Finding 2]** — e.g., "5 of 10 BC CMAs show 'loosening but expensive'
-   pattern: vacancy > 3% AND YoY rent growth > 4%."
-
-3. **[Finding 3]** — e.g., "Halifax's April 2026 starts collapsed 78.6%
-   YoY (916 → 196), but vacancy is still 2.7% — a supply-shock signal."
-
+3. **Higher vacancy is not translating to rent relief.** The top-right
+   quadrant of the vacancy vs. rent-growth scatter is largely empty:
+   CMAs with rising vacancy rates generally saw rent growth slow.
+   Saguenay stands out as the tightest market (vacancy 1.3%, rent
+   growth +10.9%), while Kelowna shows the opposite extreme
+   (vacancy 6.4%, rent growth +2.4%).
+   
 ---
 
 ## Known limitations
